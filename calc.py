@@ -1,17 +1,17 @@
-# total_points = 100
-# points_earned = input("Points Earned: ")
-# grade = (int(points_earned) / total_points) * 100
+total_points = 100
+points_earned = input("Points Earned: ")
+grade = (int(points_earned) / total_points) * 100
 
-# if grade >= 90 and grade <= 100:
-#     print(f"Your Grade: {grade}, that's an A!")
-# elif grade >= 80 and grade < 90:
-#     print(f"Your Grade: {grade}, that's a B!")
-# elif grade >= 70 and grade < 80:
-#     print(f"Your Grade: {grade}, that's a C!")
-# elif grade >= 101:
-#     print("Unsupported Entry. Max score of 100.")
-# else:
-#     print(f"{grade} You suck...")
+if grade >= 90 and grade <= 100:
+    print(f"Your Grade: {grade}, that's an A!")
+elif grade >= 80 and grade < 90:
+    print(f"Your Grade: {grade}, that's a B!")
+elif grade >= 70 and grade < 80:
+    print(f"Your Grade: {grade}, that's a C!")
+elif grade >= 101:
+    print("Unsupported Entry. Max score of 100.")
+else:
+    print(f"{grade} You suck...")
 
 
 def separator():
